@@ -1,0 +1,83 @@
+
+
+
+/* メインコンテンツ：中央寄せ */
+.contact-container {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+/* タイトル：お問い合わせ */
+.page-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+/* テーブルレイアウト：枠線なし、項目と入力欄の調整 */
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form-table th,
+.form-table td {
+    padding: 15px 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* 項目名（左側）の幅調整 */
+.form-table th {
+    width: 30%;
+    font-weight: normal;
+}
+
+/* 必須ラベル：グレーで小さめ */
+.required-label {
+    background-color: #e0e0e0;
+    color: #666;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-left: 8px;
+}
+
+/* 入力フィールド：枠線あり、角を少し丸く */
+input,
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* paddingを含めた幅計算 */
+    font-size: 16px;
+}
+
+/* エラーメッセージ：赤文字、少し小さめ */
+.error-msg {
+    color: #ff0000;
+    font-size: 14px;
+    margin: 5px 0 0 0;
+}
+
+/* ボタンコンテナ：中央寄せ */
+.btn-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* 送信ボタン：黒背景に白文字、横長 */
+.submit-btn {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 12px 80px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+

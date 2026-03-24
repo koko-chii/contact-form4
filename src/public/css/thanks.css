@@ -1,0 +1,15 @@
+
+
+/* メインコンテンツ：中央寄せ */
+.thanks-container {
+    text-align: center;
+    margin-top: 100px; /* 上からの余白 */
+    padding: 0 20px;
+}
+
+/* 完了メッセージ */
+.thanks-message {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}

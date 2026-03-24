@@ -1,0 +1,59 @@
+
+
+
+
+/* メイン：中央寄せ */
+.confirm-container {
+    max-width:1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+/* タイトル：お問い合わせ内容確認 */
+.page-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+/* テーブル：枠線あり */
+.form-table {
+    width: 100%;
+    hight: 60px;
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+}
+
+/* 左側の項目名：グレーの背景 */
+.form-table th {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 25px 20px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid #dddddd;
+    border-right: none;
+}
+
+/* 右側の表示内容 */
+.form-table td {
+    padding: 25px 20px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* 送信ボタンのコンテナ */
+.btn-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* 送信ボタン：黒背景、白文字 */
+.submit-btn {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 12px 100px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
